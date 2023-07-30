@@ -5,19 +5,46 @@ body{
 }
 header{
     display:flex;
-    height: 20%;
-    background-color: #e4d298;
-    align-items: center;
+    background-color:#e2d4a5 ;
+    align-items: top;
+    flex-direction: row;
+    width: 100%;
+    height:150px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1%;
+    height: 80px;
+    margin-right: 10px;
+    height: 100%;
+    width: 100%;
+    margin-right: 20px;
     
+    }
+
+header nav img{
+    height: 35%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.cool{
+    height: 90%;
 }
 
 
 .logos{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    
-}
+    align-items: top;
+    justify-content: space-between;
+    margin-top: 1%;
+    margin-left: 2%;
+    }
 
 .bloque1 {
     display: flex;
@@ -30,6 +57,10 @@ header{
 
 }
 
+.bloque1 img{
+    width: 60%;
+}
+
 
 .bloque2 {
     display: flex;
@@ -38,11 +69,10 @@ header{
     padding: 5%;
     justify-content: center;
     align-items: center;
-
 }
 
 .bloque2 img{
-    height: 200px;
+    width:55%;
 }
 
 
@@ -56,14 +86,12 @@ header{
     font-size: xx-large;
     color: #f0cf65;
     padding: 15px;
-    
 }
 
 .carta {
     font-size: xx-large;
     color: #d7816a;
     padding: 15px;
-
 }
 
 a{
@@ -83,4 +111,10 @@ a{
     color: #93b5c6;
 }
 
+.main {
+    width: 100%;
+}
 
+.main p{
+  margin-right: 10%;  
+}
