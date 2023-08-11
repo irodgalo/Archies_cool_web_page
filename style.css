@@ -227,4 +227,45 @@ button:hover{
     align-items: center;
     background-color: #e2d4a5;
     padding-bottom: 5%;
+    overflow-x: hidden;
+}
+
+
+/*CARTA   CARTA   CARTA   CARTA   CARTA   CARTA   CARTA   CARTA   CARTA   CAARTA   CARTA   CARTA   CARTA   CARTA*/
+
+.bodycarta{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size:x-large;
+    justify-content: center;
+    overflow-x: hidden;
+    align-content: center;
+    color: #93b5c6;
+
+}
+
+.bodyimg img{
+    border-radius: 70%;
+    width: 100%;
+    height:fit-content;
+    padding-top: 10%;
+    padding-left: 10%;
+    }
+
+.bodyimg{
+    width: 300%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.contenido{
+    display: flex;
+    flex-direction: row;
+}
+
+.bloquecarta{
+    padding: 5%;
 }
